@@ -1,0 +1,8 @@
+<!--Pages/category/category.wxml-->
+<!--pages/category/category.wxml-->
+<view class='category'>
+  <w-menu categories="{{categories}}"
+          bind:menuclick="menuClick"/>
+  <w-content subcategories="{{categoryData[currentIndex].subcategories}}"
+             categoryDetail="{{categoryData[currentIndex].categoryDetail}}"/>
+</view>

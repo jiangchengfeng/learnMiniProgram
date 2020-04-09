@@ -1,0 +1,20 @@
+<!--Pages/detail/detail.wxml-->
+<w-swiper class="d-swiper" list="{{topImages}}"></w-swiper>
+
+<w-base-info baseInfo="{{baseInfo}}" />
+
+<w-shop-info shopInfo="{{shopInfo}}" />
+
+<w-detail-info detailInfo="{{detailInfo}}" />
+
+<w-param-info paramInfo="{{paramInfo}}" />
+
+<w-comment-info commentInfo="{{commentInfo}}" />
+
+<w-recommend-info recommends="{{recommends}}"/>
+
+<w-bottom-bar bind:addcart="onAddCart"/>
+
+<w-back-top wx:if="{{showBackTop}}" />
+
+
